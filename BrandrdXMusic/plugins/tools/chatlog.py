@@ -24,19 +24,19 @@ async def join_watcher(_, message):
             count = await app.get_chat_members_count(chat.id)
 
             msg = (
-                f"📝 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 𝗔𝗗𝗗𝗘𝗗 𝗜𝗡 𝗔 𝗡𝗘𝗪 𝗚𝗥𝗢𝗨𝗣\n\n"
+                f"📝 Music Bot ADDED IN YOUR GROUP\n\n"
                 f"───────────────────────────\n\n"
-                f"🥀 𝗖𝗛𝗔𝗧 𝗡𝗔𝗠𝗘: {message.chat.title}\n"
+                f"🥀 CHAT NAME: {message.chat.title}\n"
                 
-                f"🦋 𝗖𝗛𝗔𝗧 𝗜'𝗗: {message.chat.id}\n"
+                f"🦋 Chat I'D: {message.chat.id}\n"
                 
-                f"💋 𝗖𝗛𝗔𝗧 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘: @{message.chat.username}\n"
+                f"❤️ Chat Username: @{message.chat.username}\n"
                 
-                f"🙈 𝗖𝗛𝗔𝗧 𝗟𝗜𝗡𝗞: [𝗖𝗟𝗜𝗖𝗞]({link})\n"
+                f"🙈 CHAT link: [𝗖𝗟𝗜𝗖𝗞]({link})\n"
                 
-                f"😍𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗠𝗕𝗘𝗥𝗦: {count}\n"
+                f"😍Group Member: {count}\n"
                 
-                f"❤️‍🔥 𝗔𝗗𝗗𝗘𝗗 𝗕𝗬: {message.from_user.mention}"
+                f"🥲 ADDED BY: {message.from_user.mention}"
             )
             await app.send_photo(LOG_GROUP_ID, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton(f"★ 𝗦𝗘𝗘 𝗚𝗥𝗢𝗨𝗣 ★", url=f"{link}")]
@@ -64,20 +64,20 @@ async def _greet(_, message):
             count = await app.get_chat_members_count(chat.id)
 
             msg = (
-                f"🌷{member.id}𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐈𝐍 𝐀 𝐍𝐄𝐖 𝐆𝐑𝐎𝐔𝐏🥳\n\n"
+                f"🌷{member.id}WELCOME IN A NEW GROUP🥳\n\n"
                 
-                f"🦋𝐂𝐇𝐀𝐓 𝐍𝐀𝐌𝐄: {message.chat.title}\n"
+                f"🦋Chat name: {message.chat.title}\n"
                 
-                f"🔐𝐂𝐇𝐀𝐓 𝐔.𝐍: @{message.chat.username}\n"
+                f"🔐Chat Username: @{message.chat.username}\n"
                 
-                f"💖𝐔𝐑 𝐈'𝐃: {member.id}\n"
+                f"💖Your I'D: {member.id}\n"
                 
-                f"✍️𝐔𝐑 𝐔.𝐍𝐀𝐍𝐄: @{member.username}\n"
+                f"✍️YOUR NAME: @{member.username}\n"
             
-                f"👥𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐄𝐃 {count} 𝐌𝐄𝐌𝐁𝐄𝐑𝐒🎉"
+                f"👥TOTAL {count} MEMBERS🎉"
             )
             await app.send_photo(message.chat.id, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton(f"★ 𝐀𝐃𝐃 𝐌𝐄 𝐈𝐍 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐁𝐀𝐁𝐘 ★", url=f"https://t.me/{app.username}?startgroup=true")]
+            [InlineKeyboardButton(f"★ ADD ME IN YOUR GROUP ★", url=f"https://t.me/{app.username}?startgroup=true")]
          ]))
 
 #tagall
