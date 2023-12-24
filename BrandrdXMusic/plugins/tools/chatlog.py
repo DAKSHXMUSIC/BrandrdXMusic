@@ -12,6 +12,7 @@ photo = [
     "https://te.legra.ph/file/a299c30ec42a6ed7eb5d0.jpg",
     "https://te.legra.ph/file/bebd65efe37c2ee7d8e32.jpg",
     "https://te.legra.ph/file/9141f3b892d77dd74a12b.jpg",
+    "https://te.legra.ph/file/87062ae0b13e959ce2f9f.jpg"
 ]
 
 
