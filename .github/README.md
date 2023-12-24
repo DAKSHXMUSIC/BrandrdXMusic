@@ -79,7 +79,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </p>
 
 <p align="center">
-<a href="https://t.me/BRANDRD_BOT"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Friends_chatting_Group_Sigma"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 - <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ THUNDER](https://github.com/Hackeramit78) ғᴏʀ [˹ᴛʜᴜɴᴅᴇʀ ✘ ᴛɴꜱ˼ ツ](https://t.me/Thunder_X_Musicbot)_</b>
