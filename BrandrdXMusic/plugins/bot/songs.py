@@ -21,9 +21,7 @@ from BrandrdXMusic.utils.decorators.language import language, languageCB
 from BrandrdXMusic.utils.formatters import convert_bytes
 from BrandrdXMusic.utils.inline.song import song_markup
 
-# Command
-SONG_COMMAND = get_command("SONG_COMMAND")
-
+# Song Module
 
 @app.on_message(
     filters.command(SONG_COMMAND)
